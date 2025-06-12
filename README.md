@@ -1,21 +1,21 @@
 [![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)]
 <h1 align="center">Hi 👋, I'm subhankar Majhi</h1>
-<h3 align="center">A passionate android developer from India</h3>
+<h3 align="center">A passionate Android Developer from India</h3>
 <img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=smajhi17&label=Profile%20views&color=0e75b6&style=flat" alt="smajhi17" /> </p>
 
 <p align="left"> <a href="https://twitter.com/subhankar0017" target="blank"><img src="https://img.shields.io/twitter/follow/subhankar0017?logo=twitter&style=for-the-badge" alt="subhankar0017" /></a> </p>
 
-- 🔭 I’m currently working on **Walpaper application**
+- 🔭 I’m currently working on **Cognify Technologies**
 
-- 🌱 I’m currently learning **c++**
+- 🌱 I’m currently learning **Java**
 
-- 🤝 I’m looking for help with **walpaper apk**
+- 🤝 I’m looking for help with **web app**
 
 - 💬 Ask me about **Android Related isssues**
 
-- 📫 How to reach me **subhankarmajhi1917@gmail.com**
+- 📫 How to reach me **subhankarmajhi0017@gmail.com**
 
 - ⚡ Fun fact **EAT SLEEP CODE REPEAT**
 
