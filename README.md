@@ -1,128 +1,119 @@
 <div align="center">
 
-```
-  ____        _     _                 _                __  __       _ _     _ 
- / ___| _   _| |__ | |__   __ _ _ __ | | ____ _ _ __  |  \/  | __ _(_) |__ (_)
- \___ \| | | | '_ \| '_ \ / _` | '_ \| |/ / _` | '__| | |\/| |/ _` | | '_ \| |
-  ___) | |_| | |_) | | | | (_| | | | |   < (_| | |    | |  | | (_| | | | | | |
- |____/ \__,_|_.__/|_| |_|\__,_|_| |_|_|\_\__,_|_|    |_|  |_|\__,_|_|_| |_|_|
-```
+  <h1>Hi, I'm Subhankar Majhi 👋</h1>
+  <p><b>Software Engineer | Mobile (Android) & Full-Stack Developer</b></p>
+  <p>📍 Kolkata, West Bengal, India &nbsp;•&nbsp; 🎓 B.Tech in ECE @ Techno India University (CGPA: 8.00)</p>
 
-  <a href="https://github.com/smajhi17">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=22C55E&center=true&vCenter=true&width=620&lines=%E2%9E%9C+subhankar%40dev-station%3A~+%24+whoami;Subhankar+Majhi+%E2%80%94+Android+%26+Full-Stack+Engineer;ECE+Undergrad+%40+Techno+India+University%2C+Kolkata;%24+status+--current%3A+Building+scalable+mobile+apps" alt="Terminal Typing Banner" />
+  <br/>
+
+  <!-- Primary Action Badges -->
+  <a href="./Subhankar_Majhi_Resume.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/📄%20View%20%2F%20Download%20Resume-PDF-E50914?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="View Resume" />
   </a>
-
-  <br/><br/>
-
-  <!-- Terminal Quick Badges -->
   <a href="https://www.linkedin.com/in/subhankar-majhi-67a4b91b9/" target="_blank">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:subhankarmajhi0017@gmail.com">
-    <img src="https://img.shields.io/badge/gmail-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://twitter.com/Subhankar1771" target="_blank">
-    <img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
-  <a href="https://instagram.com/s_majhi17" target="_blank">
-    <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-
-  <br/><br/>
-
-  <img src="https://komarev.com/ghpvc/?username=smajhi17&label=terminal%20sessions&color=22c55e&style=flat-square" alt="Terminal Sessions Counter" />
 
 </div>
 
 ---
 
-### 💻 `system.fetch --profile`
+## 📄 Resume
 
-```yaml
-╭─────────────────────────────── subhankar@station ───────────────────────────────╮
-│                                                                                 │
-│   USER         : Subhankar Majhi                                                │
-│   ROLE         : Android Developer & Full-Stack Engineer                        │
-│   EDUCATION    : B.E. in Electronics & Communication Engineering (2024–2028)    │
-│   AFFILIATION  : Techno India University, Kolkata                               │
-│   LOCATION     : Kolkata, India 🇮🇳                                              │
-│   SHELL        : zsh 5.9 | ARCH: ARM64 / x86_64                                 │
-│   CORE_STACK   : Java 21, Kotlin 2.0, Python 3.12, Node.js 20, XML, SQL        │
-│   ACCREDIT     : HackerRank Problem Solving (Certified)                         │
-│   COMMUNITY    : Former Campus Ambassador @ IIT Delhi (Rendezvous)              │
-│   MOTTO        : "Code cleanly, optimize relentlessly, ship consistently."       │
-│                                                                                 │
-╰─────────────────────────────────────────────────────────────────────────────────╯
-```
+> **Direct Link:** [Click here to view or download the complete Resume (PDF)](./Subhankar_Majhi_Resume.pdf)
 
----
-
-### ⚡ `arsenal.inspect --skills`
-
-<p align="center">
-  <b>Languages & Core:</b><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,kotlin,py,c,cpp,js,html,css,mysql&theme=dark" alt="Languages" />
-  </a>
-</p>
-
-<p align="center">
-  <b>Frameworks, Mobile & Cloud Infrastructure:</b><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=android,firebase,nodejs,express,git,github,linux,gcp,vscode&theme=dark" alt="Mobile & Tools" />
-  </a>
-</p>
-
----
-
-### 📂 `projects.ls -la ~/workspace`
-
-| Mode | Target | Stack | Highlights | Status |
-| :--- | :--- | :--- | :--- | :---: |
-| `drwx-r-x` | [**Health_Companion**](https://github.com/smajhi17/Health_Companion) | `Android` `Kotlin` `XML` | End-to-end health monitoring and wellness tracker app | `Active` 🟢 |
-| `drwx-r-x` | [**expense-tracker-app**](https://github.com/smajhi17/expense-tracker-app) | `Android` `Java` `REST` | Full personal finance tracker with [backend suite](https://github.com/smajhi17/expensetracker-backend) | `Active` 🟢 |
-| `drwx-r-x` | [**Heart-Disease-Classification**](https://github.com/smajhi17/Heart-Disease-Classification) | `Python` `Scikit-Learn` | Machine learning model predicting cardiovascular risk vectors | `Stable` 🎯 |
-| `drwx-r-x` | [**Alphabet_Launcher**](https://github.com/smajhi17/Alphabet_Launcher) | `Java` `Android SDK` | Minimalist, ultra-fast index-based Android launcher | `Active` 🟢 |
-| `drwx-r-x` | [**stopwatch**](https://github.com/smajhi17/stopwatch) | `Java` `Android XML` | Precision stopwatch utility designed for clean low-latency UX | `Shipped` 📦 |
-
----
-
-### 📊 `telemetry.render --metrics`
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=smajhi17&show_icons=true&theme=terminal&hide_border=false&count_private=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=smajhi17&theme=terminal&hide_border=false" width="48%" alt="Streak Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smajhi17&layout=compact&theme=terminal&hide_border=false" width="60%" alt="Top Languages" />
-</div>
-
----
-
-### 📡 `ssh connect@smajhi17.dev`
-
-```bash
-# Direct ping or collaborative inquiry
-$ curl -s https://smajhi17.dev/ping
-
-  > Status: 200 OK
-  > Message: "Open to exciting mobile engineering roles, open source, and innovative projects!"
-```
-
-<div align="center">
-
-| Protocol | Destination | Notes |
-| :--- | :--- | :--- |
-| **LinkedIn** | [`/in/subhankar-majhi`](https://www.linkedin.com/in/subhankar-majhi-67a4b91b9/) | Professional connections & updates |
-| **Email** | [`subhankarmajhi0017@gmail.com`](mailto:subhankarmajhi0017@gmail.com) | Quickest response for inquiries |
-| **Twitter / X** | [`@Subhankar1771`](https://twitter.com/Subhankar1771) | Engineering thoughts & dev logs |
-| **Instagram** | [`@s_majhi17`](https://instagram.com/s_majhi17) | Life beyond the keyboard |
-
-</div>
-
+<details open>
+<summary><b>📑 Expand / Collapse Full Resume Preview</b></summary>
 <br/>
 
+### 🎓 Education
+- **Techno India University**, Kolkata, India  
+  *Bachelor of Technology in Electronics and Communication Engineering* | **CGPA: 8.00** *(Aug 2024 – July 2028)*
+- **Bhimeswari Uchcha Sikshayatan (H.S)**, Purba Medinipur  
+  *Class XII – WBCHSE* | **Percentage: 70.2%** *(2022 – 2024)*
+
+### 💼 Work Experience
+- **App Development Intern** — **CURAA** *(Apr 2026 – Jul 2026)*
+  - Built and shipped mobile application features end-to-end, from implementation through debugging and testing, for a live production app.
+  - Partnered with a cross-functional development team across the full software development lifecycle (SDLC), from requirements to release.
+  - Applied software engineering best practices (code reviews, version control, structured testing) to keep application components reliable and maintainable.
+- **Software Development Intern** — **Cognifyz Technologies** *(Mar 2025 – May 2025 | Remote)*
+  - Solved real-world software engineering problems in Java using structured, test-driven problem-solving methodologies.
+  - Debugged, tested, and optimized existing codebases, improving reliability and runtime performance following industry best practices.
+  - Collaborated with cross-functional teams using Git for version control and actively participated in peer code reviews.
+
+### 🏆 Key Achievements
+- **LeetCode Knight:** Ranked Knight with 70+ DSA problems solved, showcasing robust algorithmic and data structure proficiency.
+- **Naukri Campus Young Turks 2025:** Ranked in the **top 1 percentile nationwide** across India's technical skill assessment contest.
+- **Gen AI Study Jams:** Placed in the **Top 15** at Techno India University's inter-college AI/ML competition.
+- **Open Source Contributor:** Active contributor to public codebases, developer utilities, and collaborative repositories.
+
+</details>
+
+---
+
+## 🛠️ Technical Skills
+
+| Domain | Technologies & Competencies |
+| :--- | :--- |
+| **Languages** | Java, Python, JavaScript, TypeScript, HTML5, CSS3, SQL, MySQL |
+| **Frameworks & Libraries** | Spring Boot, React, React Native, Redux Toolkit, Node.js, Next.js, Scikit-learn, Pandas, XGBoost |
+| **Developer Tools** | Git, GitHub, Android Studio, VS Code, REST APIs, Retrofit |
+| **Computer Science Fundamentals** | Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), Operating Systems, DBMS, Computer Networks |
+
+---
+
+## 🚀 Featured Projects
+
+### 💰 [Expense Tracker Android Application](https://github.com/smajhi17/expense-tracker-app)
+*Java • Spring Boot • MySQL • REST API • Retrofit*
+- Developed a personal finance Android application for tracking daily expenses and income with secure user authentication.
+- Implemented **Spring Boot REST APIs** and integrated **Retrofit** for seamless, low-latency communication between the client and backend.
+- Integrated **MySQL** database for user-specific financial records and implemented real-time net balance calculations and swipe-to-delete functionality.
+- Backend Source: [smajhi17/expensetracker-backend](https://github.com/smajhi17/expensetracker-backend)
+
+### ❤️ [Heart Disease Classifier](https://github.com/smajhi17/Heart-Disease-Classification)
+*Python • Scikit-learn • XGBoost • Pandas*
+- Engineered an end-to-end ML pipeline on the UCI Cleveland Heart Disease dataset to predict and classify the presence of cardiovascular disease.
+- Trained and benchmarked Logistic Regression, Random Forest, and XGBoost models, achieving **~85% test accuracy** and a **0.92 AUC-ROC** score with Random Forest.
+- Architected a modular pipeline covering preprocessing, model training, evaluation, and automated ROC curve & feature-importance reporting.
+
+### 📱 [Health Companion](https://github.com/smajhi17/Health_Companion)
+*Android • Java / Kotlin • XML*
+- Personal wellness tracking application tailored for daily activity routines and health metric management.
+
+### ⚡ [Alphabet Launcher](https://github.com/smajhi17/Alphabet_Launcher)
+*Android • Java*
+- Lightweight, distraction-free index-based custom Android launcher built for clean productivity and responsive device navigation.
+
+### ⏱️ [Stopwatch Utility](https://github.com/smajhi17/stopwatch)
+*Java • Android XML*
+- Clean, responsive chronometer utility focused on low-latency lap tracking and intuitive UI controls.
+
+---
+
+## 📈 GitHub Statistics
+
 <div align="center">
-  <sub><code>exit 0 &mdash; Process completed successfully.</code></sub>
+  <img src="https://github-readme-stats.vercel.app/api?username=smajhi17&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=smajhi17&theme=tokyonight&hide_border=true" width="48%" alt="Streak Stats" />
 </div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smajhi17&layout=compact&theme=tokyonight&hide_border=true" width="60%" alt="Top Languages" />
+</div>
+
+---
+
+## 📬 Let's Connect
+
+- **Email:** [subhankarmajhi0017@gmail.com](mailto:subhankarmajhi0017@gmail.com)
+- **LinkedIn:** [linkedin.com/in/subhankar-majhi-67a4b91b9](https://www.linkedin.com/in/subhankar-majhi-67a4b91b9/)
+- **GitHub:** [github.com/smajhi17](https://github.com/smajhi17)
+- **Location:** Kolkata, West Bengal, India
