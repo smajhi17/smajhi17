@@ -1,70 +1,67 @@
-<h1 align="center">Hi 👋, I'm Subhankar Majhi</h1>
-<h3 align="center">A passionate Android & Full-Stack Developer from India</h3>
-<img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+<div align="center">
+  <h3>💫 Hey Everyone , I'm Subhankar</h3>
+  <h1>💻 Welcome to My GitHub Universe!</h1>
+</div>
 
-<p align="left"> 
-  <img src="https://komarev.com/ghpvc/?username=smajhi17&label=Profile%20views&color=0e75b6&style=flat" alt="smajhi17" />
+<table>
+  <tr>
+    <td width="58%" valign="top">
+      <ul>
+        <li>👨‍💻 <b>Building Android apps that help people every day.</b></li>
+        <li>💼 <b>App Development Intern @ CURAA &amp; Software Development Intern @ Cognifyz</b></li>
+        <li>🎓 <b>ECE Undergrad @ Techno India University, Kolkata (2024–2028, CGPA: 8.00)</b></li>
+        <li>⚔️ <b>LeetCode Knight (70+ DSA Solved) &amp; Top 1% Naukri Campus Young Turks 2025</b></li>
+        <li>📖 <b>Focused on learning and improving architectures every day</b></li>
+        <li>🛠️ <b>Enjoy working on a variety of mobile, backend &amp; ML projects</b></li>
+        <li>🤝 <b>Open to collaboration and high-impact engineering opportunities</b></li>
+        <li>📄 <b>Resume:</b> <a href="./Subhankar_Majhi_Resume.pdf"><b>Download Subhankar's Resume (PDF)</b></a></li>
+      </ul>
+
+      <p>
+        <img src="https://komarev.com/ghpvc/?username=smajhi17&label=visitors&color=2ecc71&style=flat" alt="visitors" />
+      </p>
+
+      <p>
+        <a href="mailto:subhankarmajhi0017@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
+        <a href="https://instagram.com/s_majhi17" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+        <a href="https://www.linkedin.com/in/subhankar-majhi-67a4b91b9/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+        <a href="https://twitter.com/Subhankar1771" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter" /></a>
+        <a href="https://leetcode.com/smajhi17" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
+        <a href="./Subhankar_Majhi_Resume.pdf" target="_blank"><img src="https://img.shields.io/badge/Resume-2ECC71?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="Resume" /></a>
+      </p>
+    </td>
+    <td width="42%" align="center" valign="middle">
+      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="340" alt="Coding Illustration" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ================= GITHUB PROFILE SUMMARY CARDS ================= -->
+
+<p align="center">
+  <img src="./profile-cards/0-profile-details.svg" width="100%" alt="Subhankar Majhi Profile Details" />
+</p>
+
+<p align="center">
+  <img src="./profile-cards/1-stats.svg" width="49%" alt="GitHub Stats" />
   &nbsp;
-  <a href="./Subhankar_Majhi_Resume.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/📄%20Resume-PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Resume" />
-  </a>
+  <img src="./profile-cards/2-commits-time.svg" width="49%" alt="Commits Distribution" />
 </p>
 
-<p align="left"> <a href="https://twitter.com/Subhankar1771" target="blank"><img src="https://img.shields.io/twitter/follow/Subhankar1771?logo=twitter&style=for-the-badge" alt="Subhankar1771" /></a> </p>
-
-- 🔭 I’m currently working on **scalable Android & Full-Stack Applications**
-
-- 💼 Recently interned as **App Development Intern @ CURAA** and **Software Development Intern @ Cognifyz Technologies**
-
-- 🎓 Pursuing **B.Tech in Electronics and Communication Engineering** at Techno India University, Kolkata (2024–2028, CGPA: 8.00)
-
-- ⚔️ **LeetCode Knight** (70+ DSA problems solved) & Top 1% in **Naukri Campus Young Turks 2025**
-
-- 🌱 I’m currently exploring **Spring Boot, React Native & Machine Learning**
-
-- 💬 Ask me about **Android Development (Java/Kotlin), Spring Boot, REST APIs & Problem Solving**
-
-- 📄 My Resume: **[View / Download Subhankar's Resume (PDF)](./Subhankar_Majhi_Resume.pdf)**
-
-- 📫 How to reach me: **subhankarmajhi0017@gmail.com**
-
-- ⚡ Fun fact: **EAT SLEEP CODE REPEAT**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/Subhankar1771" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Subhankar1771" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/subhankar-majhi-67a4b91b9/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="30" width="40" /></a>
-<a href="https://instagram.com/s_majhi17" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="smajhi17" height="30" width="40" /></a>
-<a href="https://www.youtube.com/channel/UCQW3Hgi-CRw9F0rvexTMtlA" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="youtube" height="30" width="40" /></a>
-<a href="https://leetcode.com/smajhi17" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="leetcode" height="30" width="40" /></a>
+<p align="center">
+  <img src="./profile-cards/3-top-langs-repo.svg" width="49%" alt="Top Languages by Repo" />
+  &nbsp;
+  <img src="./profile-cards/4-top-langs-commit.svg" width="49%" alt="Top Languages by Commit" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
-  <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> 
-  <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> 
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-  <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> 
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/> </a> 
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/> </a> 
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> 
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> 
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> 
-  <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> 
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> 
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
+<!-- ================= GITHUB TROPHIES ================= -->
+<p align="center">
+  <img src="./profile-cards/5-trophies.svg" width="100%" alt="GitHub Trophies" />
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=smajhi17&show_icons=true&locale=en&layout=compact" alt="smajhi17" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=smajhi17&show_icons=true&locale=en" alt="smajhi17" /></p>
-
-<!---
-smajhi17/smajhi17 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!-- ================= CONTRIBUTION GRAPH ================= -->
+<p align="center">
+  <img src="./profile-cards/6-contribution-graph.svg" width="100%" alt="Contribution Graph" />
+</p>

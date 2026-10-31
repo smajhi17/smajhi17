@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="110" viewBox="0 0 800 110">
+  <defs>
+    <linearGradient id="trophyGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="100%" stop-color="#FFB300" />
+    </linearGradient>
+    <linearGradient id="trophySilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECEFF1" />
+      <stop offset="100%" stop-color="#90A4AE" />
+    </linearGradient>
+    <linearGradient id="trophyCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#80DEEA" />
+      <stop offset="100%" stop-color="#00ACC1" />
+    </linearGradient>
+    <linearGradient id="trophyPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CE93D8" />
+      <stop offset="100%" stop-color="#8E24AA" />
+    </linearGradient>
+  </defs>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <!-- Trophy 1: MultiLanguage -->
+    <g transform="translate(0, 0)">
+      <rect width="125" height="110" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1.5" />
+      <text x="62" y="22" fill="#8b949e" font-size="11" font-weight="600" text-anchor="middle">MultiLanguage</text>
+      <!-- Laurel Wreath & Rank Badge -->
+      <circle cx="62" cy="55" r="20" fill="none" stroke="url(#trophyPurple)" stroke-width="2.5" />
+      <text x="62" y="62" fill="url(#trophyPurple)" font-size="20" font-weight="800" text-anchor="middle">A</text>
+      <text x="62" y="92" fill="#8b949e" font-size="9.5" text-anchor="middle">Rainbow Lang User</text>
+      <text x="62" y="103" fill="#484f58" font-size="8" text-anchor="middle">14pt</text>
+    </g>
+
+    <!-- Trophy 2: Repositories -->
+    <g transform="translate(135, 0)">
+      <rect width="125" height="110" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1.5" />
+      <text x="62" y="22" fill="#8b949e" font-size="11" font-weight="600" text-anchor="middle">Repositories</text>
+      <circle cx="62" cy="55" r="20" fill="none" stroke="url(#trophyGold)" stroke-width="2.5" />
+      <text x="62" y="62" fill="url(#trophyGold)" font-size="20" font-weight="800" text-anchor="middle">S</text>
+      <text x="62" y="92" fill="#8b949e" font-size="9.5" text-anchor="middle">Repo Creator</text>
+      <text x="62" y="103" fill="#484f58" font-size="8" text-anchor="middle">115pt</text>
+    </g>
+
+    <!-- Trophy 3: Stars -->
+    <g transform="translate(270, 0)">
+      <rect width="125" height="110" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1.5" />
+      <text x="62" y="22" fill="#8b949e" font-size="11" font-weight="600" text-anchor="middle">Stars</text>
+      <circle cx="62" cy="55" r="20" fill="none" stroke="url(#trophyGold)" stroke-width="2.5" />
+      <text x="62" y="62" fill="url(#trophyGold)" font-size="20" font-weight="800" text-anchor="middle">S</text>
+      <text x="62" y="92" fill="#8b949e" font-size="9.5" text-anchor="middle">Stargazer</text>
+      <text x="62" y="103" fill="#484f58" font-size="8" text-anchor="middle">204pt</text>
+    </g>
+
+    <!-- Trophy 4: Commits -->
+    <g transform="translate(405, 0)">
+      <rect width="125" height="110" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1.5" />
+      <text x="62" y="22" fill="#8b949e" font-size="11" font-weight="600" text-anchor="middle">Commits</text>
+      <circle cx="62" cy="55" r="20" fill="none" stroke="url(#trophyCyan)" stroke-width="2.5" />
+      <text x="62" y="62" fill="url(#trophyCyan)" font-size="20" font-weight="800" text-anchor="middle">A</text>
+      <text x="62" y="92" fill="#8b949e" font-size="9.5" text-anchor="middle">Ultra Committer</text>
+      <text x="62" y="103" fill="#484f58" font-size="8" text-anchor="middle">118pt</text>
+    </g>
+
+    <!-- Trophy 5: Followers -->
+    <g transform="translate(540, 0)">
+      <rect width="125" height="110" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1.5" />
+      <text x="62" y="22" fill="#8b949e" font-size="11" font-weight="600" text-anchor="middle">Followers</text>
+      <circle cx="62" cy="55" r="20" fill="none" stroke="url(#trophySilver)" stroke-width="2.5" />
+      <text x="62" y="62" fill="url(#trophySilver)" font-size="20" font-weight="800" text-anchor="middle">A</text>
+      <text x="62" y="92" fill="#8b949e" font-size="9.5" text-anchor="middle">Dev Community</text>
+      <text x="62" y="103" fill="#484f58" font-size="8" text-anchor="middle">105pt</text>
+    </g>
+
+    <!-- Trophy 6: PullRequest -->
+    <g transform="translate(675, 0)">
+      <rect width="125" height="110" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1.5" />
+      <text x="62" y="22" fill="#8b949e" font-size="11" font-weight="600" text-anchor="middle">PullRequest</text>
+      <circle cx="62" cy="55" r="20" fill="none" stroke="#CD7F32" stroke-width="2.5" />
+      <text x="62" y="62" fill="#CD7F32" font-size="20" font-weight="800" text-anchor="middle">B</text>
+      <text x="62" y="92" fill="#8b949e" font-size="9.5" text-anchor="middle">PR Contributor</text>
+      <text x="62" y="103" fill="#484f58" font-size="8" text-anchor="middle">18pt</text>
+    </g>
+  </g>
+</svg>

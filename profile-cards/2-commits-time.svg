@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="200" viewBox="0 0 390 200">
+  <!-- Card Background -->
+  <rect width="390" height="200" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1.5" />
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <!-- Title -->
+    <text x="25" y="38" fill="#58a6ff" font-size="17" font-weight="600">Commits (UTC +05:30)</text>
+
+    <!-- Y-axis scale -->
+    <g font-size="9" fill="#484f58" text-anchor="end">
+      <text x="35" y="65">50</text>
+      <text x="35" y="90">40</text>
+      <text x="35" y="115">30</text>
+      <text x="35" y="140">20</text>
+      <text x="35" y="165">10</text>
+    </g>
+
+    <!-- Gridlines -->
+    <line x1="42" y1="62" x2="365" y2="62" stroke="#161b22" stroke-width="1" />
+    <line x1="42" y1="87" x2="365" y2="87" stroke="#161b22" stroke-width="1" />
+    <line x1="42" y1="112" x2="365" y2="112" stroke="#161b22" stroke-width="1" />
+    <line x1="42" y1="137" x2="365" y2="137" stroke="#161b22" stroke-width="1" />
+    <line x1="42" y1="162" x2="365" y2="162" stroke="#161b22" stroke-width="1" />
+
+    <!-- Histogram Bars (24 hours) -->
+    <!-- h0 to h23 -->
+    <g fill="#2ea043">
+      <!-- 00-06 -->
+      <rect x="45" y="158" width="8" height="4" rx="1" />
+      <rect x="58" y="160" width="8" height="2" rx="1" />
+      <rect x="71" y="161" width="8" height="1" rx="1" />
+      <rect x="84" y="162" width="8" height="0" rx="1" />
+      <rect x="97" y="162" width="8" height="0" rx="1" />
+      <rect x="110" y="162" width="8" height="0" rx="1" />
+      <!-- 06-12 -->
+      <rect x="123" y="156" width="8" height="6" rx="1" />
+      <rect x="136" y="148" width="8" height="14" rx="1" />
+      <rect x="149" y="142" width="8" height="20" rx="1" />
+      <rect x="162" y="130" width="8" height="32" rx="1" />
+      <rect x="175" y="118" width="8" height="44" rx="1" />
+      <rect x="188" y="112" width="8" height="50" rx="1" />
+      <!-- 12-18 -->
+      <rect x="201" y="105" width="8" height="57" rx="1" />
+      <rect x="214" y="98" width="8" height="64" rx="1" />
+      <rect x="227" y="90" width="8" height="72" rx="1" />
+      <rect x="240" y="82" width="8" height="80" rx="1" fill="#3fb950" />
+      <rect x="253" y="70" width="8" height="92" rx="1" fill="#3fb950" />
+      <rect x="266" y="65" width="8" height="97" rx="1" fill="#3fb950" />
+      <!-- 18-24 (Peak night coding) -->
+      <rect x="279" y="55" width="8" height="107" rx="1" fill="#3fb950" />
+      <rect x="292" y="48" width="8" height="114" rx="1" fill="#3fb950" />
+      <rect x="305" y="60" width="8" height="102" rx="1" fill="#3fb950" />
+      <rect x="318" y="80" width="8" height="82" rx="1" />
+      <rect x="331" y="110" width="8" height="52" rx="1" />
+      <rect x="344" y="140" width="8" height="22" rx="1" />
+    </g>
+
+    <!-- X-axis scale labels -->
+    <g font-size="10" fill="#6e7681" text-anchor="middle">
+      <text x="50" y="180">0</text>
+      <text x="127" y="180">6</text>
+      <text x="205" y="180">12</text>
+      <text x="283" y="180">18</text>
+      <text x="350" y="180">23</text>
+    </g>
+    <text x="365" y="192" fill="#484f58" font-size="9" text-anchor="end">per day hour</text>
+  </g>
+</svg>
