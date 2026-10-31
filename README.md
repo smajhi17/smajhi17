@@ -36,22 +36,26 @@
 
 <br/>
 
+<!-- ================= MODERN 2026 METRICS SUITE ================= -->
+
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=smajhi17&theme=github_dark" width="100%" alt="Profile Details" /><br/><br/>
+<img src="https://raw.githubusercontent.com/smajhi17/smajhi17/main/profile-cards/0-profile-details.svg" width="100%" alt="Profile Overview" /><br/><br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=smajhi17&theme=github_dark" width="49%" alt="Stats" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=smajhi17&theme=github_dark&utcOffset=5.5" width="49%" alt="Productive Time" /><br/><br/>
+<img src="https://raw.githubusercontent.com/smajhi17/smajhi17/main/profile-cards/1-stats.svg" width="49%" alt="GitHub Metrics" />
+&nbsp;
+<img src="https://raw.githubusercontent.com/smajhi17/smajhi17/main/profile-cards/2-commits-time.svg" width="49%" alt="Productivity Curve" /><br/><br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=smajhi17&theme=github_dark" width="49%" alt="Repos per Language" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=smajhi17&theme=github_dark" width="49%" alt="Most Commit Language" />
+<img src="https://raw.githubusercontent.com/smajhi17/smajhi17/main/profile-cards/3-top-langs-repo.svg" width="49%" alt="Languages by Repo" />
+&nbsp;
+<img src="https://raw.githubusercontent.com/smajhi17/smajhi17/main/profile-cards/4-top-langs-commit.svg" width="49%" alt="Languages by Commits" /><br/><br/>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/smajhi17/smajhi17/main/profile-cards/5-trophies.svg" width="100%" alt="GitHub Trophies" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/smajhi17/smajhi17/main/profile-cards/6-contribution-graph.svg" width="100%" alt="Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/smajhi17/smajhi17/main/profile-cards/6-contribution-graph.svg" width="100%" alt="Contribution Momentum" />
 </p>
 
 </div>

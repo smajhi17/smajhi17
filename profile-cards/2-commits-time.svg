@@ -1,68 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="390" height="200" viewBox="0 0 390 200">
-  <!-- Card Background -->
-  <rect width="390" height="200" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1.5" />
+<svg xmlns="http://www.w3.org/2000/svg" width="415" height="215" viewBox="0 0 415 215">
+  <defs>
+    <linearGradient id="cardBgTime" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E131F" />
+      <stop offset="100%" stop-color="#07090F" />
+    </linearGradient>
+    <linearGradient id="timeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+    <linearGradient id="barPeakGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
 
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-    <!-- Title -->
-    <text x="25" y="38" fill="#58a6ff" font-size="17" font-weight="600">Commits (UTC +05:30)</text>
+  <!-- Background Card -->
+  <rect x="1" y="1" width="413" height="213" rx="16" fill="url(#cardBgTime)" stroke="url(#timeBorder)" stroke-width="1.8" />
 
-    <!-- Y-axis scale -->
-    <g font-size="9" fill="#484f58" text-anchor="end">
-      <text x="35" y="65">50</text>
-      <text x="35" y="90">40</text>
-      <text x="35" y="115">30</text>
-      <text x="35" y="140">20</text>
-      <text x="35" y="165">10</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+    <!-- Header -->
+    <text x="26" y="38" fill="#10B981" font-size="16" font-weight="700" letter-spacing="0.5">🕒 Productivity by Hour (IST)</text>
+
+    <!-- Y-Axis Scale -->
+    <g font-size="9.5" fill="#475569" text-anchor="end">
+      <text x="36" y="68">50</text>
+      <text x="36" y="96">35</text>
+      <text x="36" y="124">20</text>
+      <text x="36" y="152">10</text>
+      <text x="36" y="178">0</text>
     </g>
 
-    <!-- Gridlines -->
-    <line x1="42" y1="62" x2="365" y2="62" stroke="#161b22" stroke-width="1" />
-    <line x1="42" y1="87" x2="365" y2="87" stroke="#161b22" stroke-width="1" />
-    <line x1="42" y1="112" x2="365" y2="112" stroke="#161b22" stroke-width="1" />
-    <line x1="42" y1="137" x2="365" y2="137" stroke="#161b22" stroke-width="1" />
-    <line x1="42" y1="162" x2="365" y2="162" stroke="#161b22" stroke-width="1" />
+    <!-- Subtle Guides -->
+    <line x1="44" y1="65" x2="390" y2="65" stroke="#1E293B" stroke-width="1" stroke-dasharray="2,2" />
+    <line x1="44" y1="93" x2="390" y2="93" stroke="#1E293B" stroke-width="1" stroke-dasharray="2,2" />
+    <line x1="44" y1="121" x2="390" y2="121" stroke="#1E293B" stroke-width="1" stroke-dasharray="2,2" />
+    <line x1="44" y1="149" x2="390" y2="149" stroke="#1E293B" stroke-width="1" stroke-dasharray="2,2" />
+    <line x1="44" y1="175" x2="390" y2="175" stroke="#334155" stroke-width="1" />
 
-    <!-- Histogram Bars (24 hours) -->
-    <!-- h0 to h23 -->
-    <g fill="#2ea043">
+    <!-- 24 Hour Bars -->
+    <g>
       <!-- 00-06 -->
-      <rect x="45" y="158" width="8" height="4" rx="1" />
-      <rect x="58" y="160" width="8" height="2" rx="1" />
-      <rect x="71" y="161" width="8" height="1" rx="1" />
-      <rect x="84" y="162" width="8" height="0" rx="1" />
-      <rect x="97" y="162" width="8" height="0" rx="1" />
-      <rect x="110" y="162" width="8" height="0" rx="1" />
+      <rect x="48" y="171" width="9" height="4" rx="2" fill="url(#barGrad)" />
+      <rect x="62" y="173" width="9" height="2" rx="2" fill="url(#barGrad)" />
+      <rect x="76" y="174" width="9" height="1" rx="2" fill="url(#barGrad)" />
+      <rect x="90" y="175" width="9" height="0" rx="2" fill="url(#barGrad)" />
+      <rect x="104" y="175" width="9" height="0" rx="2" fill="url(#barGrad)" />
+      <rect x="118" y="174" width="9" height="1" rx="2" fill="url(#barGrad)" />
+
       <!-- 06-12 -->
-      <rect x="123" y="156" width="8" height="6" rx="1" />
-      <rect x="136" y="148" width="8" height="14" rx="1" />
-      <rect x="149" y="142" width="8" height="20" rx="1" />
-      <rect x="162" y="130" width="8" height="32" rx="1" />
-      <rect x="175" y="118" width="8" height="44" rx="1" />
-      <rect x="188" y="112" width="8" height="50" rx="1" />
+      <rect x="132" y="167" width="9" height="8" rx="2" fill="url(#barGrad)" />
+      <rect x="146" y="157" width="9" height="18" rx="2" fill="url(#barGrad)" />
+      <rect x="160" y="148" width="9" height="27" rx="2" fill="url(#barGrad)" />
+      <rect x="174" y="132" width="9" height="43" rx="2" fill="url(#barGrad)" />
+      <rect x="188" y="118" width="9" height="57" rx="2" fill="url(#barGrad)" />
+      <rect x="202" y="110" width="9" height="65" rx="2" fill="url(#barGrad)" />
+
       <!-- 12-18 -->
-      <rect x="201" y="105" width="8" height="57" rx="1" />
-      <rect x="214" y="98" width="8" height="64" rx="1" />
-      <rect x="227" y="90" width="8" height="72" rx="1" />
-      <rect x="240" y="82" width="8" height="80" rx="1" fill="#3fb950" />
-      <rect x="253" y="70" width="8" height="92" rx="1" fill="#3fb950" />
-      <rect x="266" y="65" width="8" height="97" rx="1" fill="#3fb950" />
-      <!-- 18-24 (Peak night coding) -->
-      <rect x="279" y="55" width="8" height="107" rx="1" fill="#3fb950" />
-      <rect x="292" y="48" width="8" height="114" rx="1" fill="#3fb950" />
-      <rect x="305" y="60" width="8" height="102" rx="1" fill="#3fb950" />
-      <rect x="318" y="80" width="8" height="82" rx="1" />
-      <rect x="331" y="110" width="8" height="52" rx="1" />
-      <rect x="344" y="140" width="8" height="22" rx="1" />
+      <rect x="216" y="100" width="9" height="75" rx="2" fill="url(#barGrad)" />
+      <rect x="230" y="92" width="9" height="83" rx="2" fill="url(#barGrad)" />
+      <rect x="244" y="80" width="9" height="95" rx="2" fill="url(#barGrad)" />
+      <rect x="258" y="70" width="9" height="105" rx="2" fill="url(#barPeakGrad)" />
+      <rect x="272" y="58" width="9" height="117" rx="2" fill="url(#barPeakGrad)" />
+      <rect x="286" y="52" width="9" height="123" rx="2" fill="url(#barPeakGrad)" />
+
+      <!-- 18-24 (Peak Late Coding) -->
+      <rect x="300" y="46" width="9" height="129" rx="2" fill="url(#barPeakGrad)" />
+      <rect x="314" y="54" width="9" height="121" rx="2" fill="url(#barPeakGrad)" />
+      <rect x="328" y="72" width="9" height="103" rx="2" fill="url(#barGrad)" />
+      <rect x="342" y="98" width="9" height="77" rx="2" fill="url(#barGrad)" />
+      <rect x="356" y="130" width="9" height="45" rx="2" fill="url(#barGrad)" />
+      <rect x="370" y="155" width="9" height="20" rx="2" fill="url(#barGrad)" />
     </g>
 
-    <!-- X-axis scale labels -->
-    <g font-size="10" fill="#6e7681" text-anchor="middle">
-      <text x="50" y="180">0</text>
-      <text x="127" y="180">6</text>
-      <text x="205" y="180">12</text>
-      <text x="283" y="180">18</text>
-      <text x="350" y="180">23</text>
+    <!-- X-Axis Labels -->
+    <g font-size="10.5" fill="#64748B" text-anchor="middle">
+      <text x="52" y="194">0h</text>
+      <text x="136" y="194">6h</text>
+      <text x="220" y="194">12h</text>
+      <text x="305" y="194">18h</text>
+      <text x="375" y="194">23h</text>
     </g>
-    <text x="365" y="192" fill="#484f58" font-size="9" text-anchor="end">per day hour</text>
   </g>
 </svg>

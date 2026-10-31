@@ -1,74 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="220" viewBox="0 0 850 220">
   <defs>
-    <linearGradient id="greenArea" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2ea043" stop-opacity="0.85" />
-      <stop offset="100%" stop-color="#2ea043" stop-opacity="0.05" />
+    <!-- Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E131F" />
+      <stop offset="50%" stop-color="#0B0E17" />
+      <stop offset="100%" stop-color="#07090F" />
     </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.5" />
+    </linearGradient>
+
+    <!-- Chart Wave Gradient -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.75" />
+      <stop offset="60%" stop-color="#06B6D4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0E131F" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
   </defs>
 
-  <!-- Card Background -->
-  <rect width="800" height="200" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1.5" />
+  <!-- Modern Card Background with Gradient Border -->
+  <rect x="1" y="1" width="848" height="218" rx="16" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.8" />
 
   <!-- Left Info Column -->
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-    <text x="30" y="42" fill="#58a6ff" font-size="19" font-weight="600">Subhankar Majhi (smajhi17)</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, sans-serif">
+    <!-- User Name & Status Badge -->
+    <text x="32" y="44" fill="#F8FAFC" font-size="21" font-weight="700" letter-spacing="0.5">Subhankar Majhi</text>
+    
+    <!-- @smajhi17 Pill -->
+    <rect x="215" y="27" width="92" height="22" rx="11" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="261" y="42" fill="#38BDF8" font-size="11.5" font-weight="600" text-anchor="middle">@smajhi17</text>
 
-    <!-- Stat 1: Contributions -->
-    <g transform="translate(30, 72)">
-      <circle cx="8" cy="8" r="6" fill="none" stroke="#8b949e" stroke-width="1.8" />
-      <path d="M 8,4 L 8,8 L 11,10" fill="none" stroke="#8b949e" stroke-width="1.8" />
-      <text x="24" y="12" fill="#c9d1d9" font-size="13.5">420+ Contributions in the last year</text>
+    <!-- Detail 1: Contributions -->
+    <g transform="translate(32, 74)">
+      <rect x="0" y="0" width="28" height="28" rx="8" fill="#064E3B" opacity="0.6" />
+      <circle cx="14" cy="14" r="5" fill="none" stroke="#34D399" stroke-width="2" />
+      <text x="38" y="18" fill="#E2E8F0" font-size="13.5" font-weight="500">420+ Contributions <tspan fill="#64748B" font-size="12">(past year)</tspan></text>
     </g>
 
-    <!-- Stat 2: Repos -->
-    <g transform="translate(30, 102)">
-      <rect x="2" y="2" width="12" height="12" rx="2" fill="none" stroke="#8b949e" stroke-width="1.8" />
-      <line x1="2" y1="6" x2="14" y2="6" stroke="#8b949e" stroke-width="1.5" />
-      <text x="24" y="12" fill="#c9d1d9" font-size="13.5">14 Public Repositories</text>
+    <!-- Detail 2: Repositories -->
+    <g transform="translate(32, 110)">
+      <rect x="0" y="0" width="28" height="28" rx="8" fill="#1E1B4B" opacity="0.6" />
+      <rect x="9" y="9" width="10" height="10" rx="2" fill="none" stroke="#818CF8" stroke-width="2" />
+      <text x="38" y="18" fill="#E2E8F0" font-size="13.5" font-weight="500">14 Public Repositories</text>
     </g>
 
-    <!-- Stat 3: Joined -->
-    <g transform="translate(30, 132)">
-      <circle cx="8" cy="8" r="6" fill="none" stroke="#8b949e" stroke-width="1.8" />
-      <text x="24" y="12" fill="#c9d1d9" font-size="13.5">Joined GitHub 4 years ago</text>
+    <!-- Detail 3: Experience / Tenure -->
+    <g transform="translate(32, 146)">
+      <rect x="0" y="0" width="28" height="28" rx="8" fill="#312E81" opacity="0.5" />
+      <circle cx="14" cy="14" r="5" fill="none" stroke="#A78BFA" stroke-width="2" />
+      <text x="38" y="18" fill="#E2E8F0" font-size="13.5" font-weight="500">Active GitHub Contributor <tspan fill="#64748B" font-size="12">(4+ Years)</tspan></text>
     </g>
 
-    <!-- Stat 4: Handle -->
-    <g transform="translate(30, 162)">
-      <text x="2" y="12" fill="#8b949e" font-size="13.5">@</text>
-      <text x="24" y="12" fill="#8b949e" font-size="13.5">@smajhi17</text>
+    <!-- Detail 4: Focus Area -->
+    <g transform="translate(32, 182)">
+      <rect x="0" y="0" width="28" height="28" rx="8" fill="#0C4A6E" opacity="0.5" />
+      <polygon points="14,8 19,17 9,17" fill="none" stroke="#38BDF8" stroke-width="1.8" />
+      <text x="38" y="18" fill="#94A3B8" font-size="12.5" font-weight="500">Android Development • Spring Boot • ML</text>
     </g>
   </g>
 
-  <!-- Right Chart Area -->
-  <g transform="translate(420, 20)">
-    <text x="350" y="20" fill="#8b949e" font-size="11" text-anchor="end">contributions in the last year</text>
+  <!-- Right Side: Glowing Modern Spline Wave Chart -->
+  <g transform="translate(440, 24)">
+    <!-- Header -->
+    <text x="375" y="20" fill="#94A3B8" font-size="11.5" font-weight="600" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">Activity Velocity</text>
     
-    <!-- Y-axis scale -->
-    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#484f58" text-anchor="end">
-      <text x="350" y="45">300</text>
-      <text x="350" y="75">200</text>
-      <text x="350" y="105">100</text>
-      <text x="350" y="135">50</text>
+    <!-- Pulsing Live Dot -->
+    <circle cx="265" cy="16" r="3.5" fill="#10B981" filter="url(#neonGlow)" />
+    <text x="275" y="20" fill="#10B981" font-size="11" font-weight="600" font-family="-apple-system, sans-serif">Active</text>
+
+    <!-- Y-Axis Guides -->
+    <g font-family="-apple-system, sans-serif" font-size="9.5" fill="#475569" text-anchor="end">
+      <text x="375" y="52">300</text>
+      <text x="375" y="87">200</text>
+      <text x="375" y="122">100</text>
+      <text x="375" y="157">0</text>
     </g>
 
-    <!-- Chart Gridlines -->
-    <line x1="0" y1="42" x2="330" y2="42" stroke="#161b22" stroke-width="1" />
-    <line x1="0" y1="72" x2="330" y2="72" stroke="#161b22" stroke-width="1" />
-    <line x1="0" y1="102" x2="330" y2="102" stroke="#161b22" stroke-width="1" />
-    <line x1="0" y1="132" x2="330" y2="132" stroke="#161b22" stroke-width="1" />
+    <!-- Gridlines -->
+    <line x1="0" y1="48" x2="350" y2="48" stroke="#1E293B" stroke-width="1" stroke-dasharray="3,3" />
+    <line x1="0" y1="83" x2="350" y2="83" stroke="#1E293B" stroke-width="1" stroke-dasharray="3,3" />
+    <line x1="0" y1="118" x2="350" y2="118" stroke="#1E293B" stroke-width="1" stroke-dasharray="3,3" />
+    <line x1="0" y1="153" x2="350" y2="153" stroke="#334155" stroke-width="1" />
 
-    <!-- Green Area & Curve -->
-    <path d="M 0,135 Q 40,132 80,128 T 150,118 Q 180,95 210,40 Q 235,35 250,75 T 290,125 L 330,132 L 330,140 L 0,140 Z" fill="url(#greenArea)" />
-    <path d="M 0,135 Q 40,132 80,128 T 150,118 Q 180,95 210,40 Q 235,35 250,75 T 290,125 L 330,132" fill="none" stroke="#3fb950" stroke-width="2.5" />
+    <!-- Wave Area Fill -->
+    <path d="M 0,153 Q 40,150 80,142 T 150,132 Q 185,100 220,45 Q 245,38 265,85 T 310,138 L 350,146 L 350,153 L 0,153 Z" fill="url(#waveGrad)" />
 
-    <!-- X-axis Timeline Labels -->
-    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#6e7681" text-anchor="middle">
-      <text x="20" y="156">24/05</text>
-      <text x="90" y="156">24/07</text>
-      <text x="160" y="156">24/09</text>
-      <text x="230" y="156">24/11</text>
-      <text x="300" y="156">25/01</text>
+    <!-- Glowing Spline Line -->
+    <path d="M 0,153 Q 40,150 80,142 T 150,132 Q 185,100 220,45 Q 245,38 265,85 T 310,138 L 350,146" fill="none" stroke="#10B981" stroke-width="2.8" filter="url(#neonGlow)" />
+
+    <!-- Glowing Peak Points -->
+    <circle cx="220" cy="45" r="4.5" fill="#38BDF8" stroke="#0B0E17" stroke-width="2" filter="url(#neonGlow)" />
+    <circle cx="265" cy="85" r="4" fill="#10B981" stroke="#0B0E17" stroke-width="2" />
+
+    <!-- X-Axis Months -->
+    <g font-family="-apple-system, sans-serif" font-size="10.5" fill="#64748B" text-anchor="middle">
+      <text x="25" y="172">May</text>
+      <text x="95" y="172">Jul</text>
+      <text x="165" y="172">Sep</text>
+      <text x="235" y="172">Nov</text>
+      <text x="305" y="172">Jan</text>
     </g>
   </g>
 </svg>
