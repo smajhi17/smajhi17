@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#1F0D11" />
+      <stop offset="60%" stop-color="#0E080A" />
+      <stop offset="100%" stop-color="#070405" />
+    </radialGradient>
+    <radialGradient id="crimsonSpotlight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6B141B" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#3A0A0E" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0E080A" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1114" />
+      <stop offset="100%" stop-color="#100A0D" />
+    </linearGradient>
+    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E53935" />
+      <stop offset="100%" stop-color="#FF5252" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="960" height="480" fill="url(#bgGlow)" />
+
+  <!-- Background Spotlight -->
+  <circle cx="680" cy="240" r="220" fill="url(#crimsonSpotlight)" />
+
+  <!-- Top Navigation Header -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="40" y="38" fill="#8C7E77" font-size="11" font-weight="600" letter-spacing="3">SOFTWARE &amp; CREATIVE PORTFOLIO</text>
+    <circle cx="895" cy="34" r="4" fill="#E53935" />
+    <text x="880" y="38" fill="#D6C7BE" font-size="11" font-weight="600" letter-spacing="2" text-anchor="end">AVAILABLE FOR ROLES</text>
+  </g>
+
+  <!-- Top Horizontal Rule -->
+  <line x1="40" y1="52" x2="920" y2="52" stroke="#261A1D" stroke-width="1" />
+
+  <!-- Massive Headline "PORTFOLIO" -->
+  <text x="35" y="150" font-family="'Impact', 'Arial Black', -apple-system, sans-serif" font-size="108" font-weight="900" letter-spacing="6" fill="#F4E6D4">PORTFOLIO</text>
+
+  <!-- Circular Decorative Badge (Top Right) -->
+  <g transform="translate(850, 120)">
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#3A2226" stroke-width="1" stroke-dasharray="3,3" />
+    <polygon points="0,-12 4,-4 12,0 4,4 0,12 -4,4 -12,0 -4,-4" fill="#E53935" />
+  </g>
+
+  <!-- Left Column: Focus & Philosophy -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+    <text x="40" y="195" fill="#FFFFFF" font-size="15" font-weight="800" letter-spacing="2">ANDROID / FULL-STACK / ML</text>
+    <text x="40" y="215" fill="#A89A92" font-size="11" font-weight="600" letter-spacing="1.5">MOBILE ARCHITECTURE • SPRING BOOT • CLASSIFICATION</text>
+    <line x1="40" y1="230" x2="160" y2="230" stroke="#E53935" stroke-width="2" />
+
+    <!-- Pull Quote -->
+    <text x="40" y="265" fill="#E53935" font-size="28" font-family="Georgia, serif">“</text>
+    <text x="58" y="265" fill="#D6C7BE" font-size="11.5" font-weight="700" letter-spacing="1.5">I CRAFT RESILIENT, SCALABLE</text>
+    <text x="58" y="285" fill="#D6C7BE" font-size="11.5" font-weight="700" letter-spacing="1.5">MOBILE EXPERIENCES &amp; SYSTEMS</text>
+    <text x="58" y="305" fill="#D6C7BE" font-size="11.5" font-weight="700" letter-spacing="1.5">WITH ENGINEERING PRECISION.</text>
+    
+    <!-- Signature Graphic -->
+    <path d="M 58,335 Q 85,320 120,332 T 180,325 Q 210,340 230,322" fill="none" stroke="#E53935" stroke-width="1.8" opacity="0.8" />
+  </g>
+
+  <!-- Right Column: Personal Brand & Highlights -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+    <text x="490" y="195" fill="#F4E6D4" font-size="32" font-weight="900" letter-spacing="2">SUBHANKAR MAJHI</text>
+    <text x="490" y="218" fill="#E53935" font-size="11.5" font-weight="800" letter-spacing="2.5">SOFTWARE ENGINEER &amp; ANDROID DEVELOPER</text>
+    
+    <text x="490" y="252" fill="#B3A39B" font-size="13" font-weight="400">Software engineer specializing in high-performance Android engineering,</text>
+    <text x="490" y="272" fill="#B3A39B" font-size="13" font-weight="400">Spring Boot backend architectures, and machine learning pipelines.</text>
+    <text x="490" y="292" fill="#B3A39B" font-size="13" font-weight="400">ECE undergrad at Techno India University; shipped live features at CURAA.</text>
+
+    <!-- Key Metrics Cards (4 Bento Stats) -->
+    <g transform="translate(490, 325)">
+      <!-- Metric 1 -->
+      <rect x="0" y="0" width="95" height="65" rx="8" fill="url(#cardGrad)" stroke="#2D1C20" stroke-width="1" />
+      <text x="47" y="28" fill="#F4E6D4" font-size="18" font-weight="800" text-anchor="middle">8.00</text>
+      <text x="47" y="46" fill="#8C7E77" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">CGPA (ECE)</text>
+
+      <!-- Metric 2 -->
+      <rect x="110" y="0" width="105" height="65" rx="8" fill="url(#cardGrad)" stroke="#2D1C20" stroke-width="1" />
+      <text x="162" y="28" fill="#F4E6D4" font-size="18" font-weight="800" text-anchor="middle">TOP 1%</text>
+      <text x="162" y="46" fill="#8C7E77" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">YOUNG TURKS</text>
+
+      <!-- Metric 3 -->
+      <rect x="230" y="0" width="95" height="65" rx="8" fill="url(#cardGrad)" stroke="#2D1C20" stroke-width="1" />
+      <text x="277" y="28" fill="#F4E6D4" font-size="18" font-weight="800" text-anchor="middle">KNIGHT</text>
+      <text x="277" y="46" fill="#8C7E77" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">LEETCODE</text>
+
+      <!-- Metric 4 -->
+      <rect x="340" y="0" width="90" height="65" rx="8" fill="url(#cardGrad)" stroke="#2D1C20" stroke-width="1" />
+      <text x="385" y="28" fill="#F4E6D4" font-size="18" font-weight="800" text-anchor="middle">2+</text>
+      <text x="385" y="46" fill="#8C7E77" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">INTERNSHIPS</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <line x1="40" y1="440" x2="920" y2="440" stroke="#261A1D" stroke-width="1" />
+</svg>
